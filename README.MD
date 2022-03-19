@@ -5,7 +5,7 @@ These scripts can be used to generate daily CSV reports of your step function ex
 When you running thousands of excecutions per day and if you want to know the status of your executions,checking from AWS Management console will not be a good option.Therefore I created these script so its easier to extract overall status of the step function executions.You can run these scripts as cron jobs so daily reports will be ready.;-)
 
 ### Configure
-First you have to replace following with your own values in config.ini file.
+First you have to replace following with your own values in ```config.ini``` file.
 ```
 account_id = <your aws account id>
 region = <your aws region>
